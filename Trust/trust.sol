@@ -2,13 +2,13 @@
 pragma solidity =0.8.6;
 
 contract Trust {
-    struct Kid {
-        uint amount;
-        uint maturity;
-        bool paid;
-        
-        
-    }
+        struct Kid {
+            uint amount;
+            uint maturity;
+            bool paid;
+            
+            
+        }
     mapping(address => Kid) public kids;
     
     address public admin;
